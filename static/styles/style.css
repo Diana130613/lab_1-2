@@ -1,0 +1,87 @@
+.main {
+    background-color: beige;
+}
+.main__topic {
+    text-align: center;
+    color: rgb(197, 125, 0);
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main__colobok {
+    width: 366px;
+    height: 450px;
+}
+.main__teremok {
+    width: 366px;
+    height: 450px;
+}
+.cover {
+    width: 366px;
+    height: 450px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-around;
+    border: 0cm;
+}
+
+section {
+    margin: 15px;
+}
+
+div {
+    border: 1px solid rgb(0, 0, 0);
+  }
+.header {
+    background-color: rgb(125, 107, 107);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    width: 32px;
+    height: 65px;
+    margin-top: 2%;
+    margin-left: 0;
+    border: 0cm;
+}
+.logo {
+    width: 40px;
+}
+.topic {
+    margin: 0 auto;
+    border: 0cm;
+    align-items: center;
+}
+.poem {
+    font-style: italic;
+    text-align: center;
+}
+.story {
+    width: 900px;
+    margin: 90px auto auto auto;
+    background-color: peru;
+}
+.img {
+    width: 250px;
+    margin: 100px 200px 100px 110px;
+}
+.row {
+    display: flex;
+    
+}
+.main__img {
+    width: 100px;
+    background-color: rgb(125, 107, 107);
+}
+.border {
+    width: 100px;
+    background-color: rgb(125, 107, 107);;
+}
+.footer {
+    height: 380px;
+    background-image: url("static/images/grass.png");
+    background-size: contain;
+    border: 0cm;
+}
